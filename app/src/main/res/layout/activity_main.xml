@@ -9,19 +9,25 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/idToolBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:navigationIcon="@drawable/baseline_menu"
             android:contentDescription="Menu de navagação"
             android:minHeight="?attr/actionBarSize"
             app:menu="@menu/menu_principal"
-            />
+            app:navigationIcon="@drawable/baseline_menu" />
 
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <com.google.android.material.bottomappbar.BottomAppBar
+        style="@style/Widget.Material3.BottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/menu_bottom_bar"
+        app:navigationIcon="@drawable/baseline_search" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
