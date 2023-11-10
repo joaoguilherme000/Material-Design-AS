@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
         android:id="@+id/mFavorite"
+        android:title="Favorite"
         android:icon="@drawable/baseline_favorite"
-        android:title="favorite"
-        app:showAsAction="withText" />
+        app:showAsAction="ifRoom"
+    />
     <item
         android:id="@+id/mMusic"
-        android:icon="@drawable/baseline_music_note"
-        android:title="music"
-        app:showAsAction="withText" />
+        android:title="Music"
+        android:icon="@drawable/baseline_music"
+        app:showAsAction="ifRoom"
+        />
     <item
-        android:id="@+id/mPlace"
-        android:icon="@drawable/baseline_place"
-        android:title="place"
-        app:showAsAction="withText" />
+        android:id="@+id/mShare"
+        android:title="ShareIcone"
+        android:icon="@drawable/baseline_share"
+        app:showAsAction="ifRoom"
+        />
+
     <item
-        android:id="@+id/mNewspaper"
-        android:icon="@drawable/baseline_newspaper"
-        android:title="newspaper"
-        app:showAsAction="withText" />
+        android:id="@+id/mBag"
+        android:title="BagIcone"
+        android:icon="@drawable/baseline_shopping_bag"
+        app:showAsAction="ifRoom"
+        />
 </menu>
