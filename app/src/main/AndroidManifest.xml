@@ -16,15 +16,6 @@
             android:name=".BottomActivity"
             android:exported="false" />
         <activity
-            android:name=".BottomBar"
-            android:exported="false" />
-        <activity
-            android:name=".MenuTopActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MenuBottomActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
