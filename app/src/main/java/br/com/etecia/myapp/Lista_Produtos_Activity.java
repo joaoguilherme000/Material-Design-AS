@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class BottomActivity extends AppCompatActivity {
+public class Lista_Produtos_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bottom_bar_layout);
+        setContentView(R.layout.lista_produtos_layout);
     }
 }
