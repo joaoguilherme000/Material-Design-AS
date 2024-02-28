@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idCardProduto"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/idImgProduto"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/garrafa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNomeProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5sp"
+                android:text="Garrafa Digital"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDescrProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5sp"
+                android:text="Uma descrição aqui muito boa mesmo"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <RatingBar
+                    android:id="@+id/rtBarraEstrela"
+                    android:layout_width="wrap_content"
+                    android:numStars="1"
+                    android:rating="1"
+                    android:stepSize="1"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/imgCompartilha"
+                    android:clickable="true"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/baseline_share"
+                    android:focusable="true" />
+
+                <ImageView
+                    android:id="@+id/imgFavorita"
+                    android:clickable="true"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/baseline_favorite"
+                    android:focusable="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
