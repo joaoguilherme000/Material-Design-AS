@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import br.com.etecia.appprodutos.R;
+
 public class MainActivity extends AppCompatActivity {
     RecyclerView idRecyclerViewFilmes;
 

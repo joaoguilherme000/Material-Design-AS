@@ -13,6 +13,8 @@ import com.google.android.material.card.MaterialCardView;
 
 import java.util.List;
 
+import br.com.etecia.appprodutos.R;
+
 public class ProdutosAdapter extends RecyclerView.Adapter<ProdutosAdapter.ViewHolder> {
 
     private Context context;
