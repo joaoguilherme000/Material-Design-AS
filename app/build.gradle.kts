@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "br.com.etecia.appprodutos"
-    compileSdk = 34
+    namespace = "br.com.etecia.myapp"
+    compileSdk = 33
 
     defaultConfig {
-        applicationId = "br.com.etecia.appprodutos"
+        applicationId = "br.com.etecia.myapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
